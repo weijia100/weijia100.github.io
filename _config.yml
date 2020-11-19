@@ -1,8 +1,8 @@
-title: Your Site Title
-description: The description of your site.
-email: your-email@address.com
+title: 水滴石穿
+description: 记录我儿学习成绩的点点滴滴.
+email: "weixu6130@163.com"
 
-author: Your name #  Default is your site title.
+author: hetaodie #  Default is your site title.
 
 # Your social accounts.
 social:
@@ -75,4 +75,4 @@ smiley:
   enabled: true
   dir: img/smileys
 
-pages: books
+#pages: books
