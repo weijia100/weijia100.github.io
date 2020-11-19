@@ -3,6 +3,6 @@ _site
 .jekyll-metadata
 local.yml
 
-/img/*
+#/img/*
 
 /node_modules/
