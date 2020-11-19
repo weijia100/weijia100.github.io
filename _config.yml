@@ -38,6 +38,8 @@ comment:
 smiley:
   enabled: true
 
+pages: books
+
 # Jekyll Settings
 markdown: kramdown
 permalink: /blog/:title:output_ext
@@ -84,3 +86,4 @@ deploy:
     - blog
     - feed.xml
     - sitemap.xml
+
