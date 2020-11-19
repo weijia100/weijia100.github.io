@@ -82,5 +82,5 @@ deploy:
     - blog
     - feed.xml
     - sitemap.xml
-    
-#pages: books
+
+pages: books
