@@ -1,8 +1,8 @@
-title: 水滴石穿
-description: 记录儿子学习的点点滴滴.
-email: "weixu6130@163.com"
+title: Your Site Title
+description: The description of your site.
+email: your-email@address.com
 
-author: weixu #  Default is your site title.
+author: Your name #  Default is your site title.
 
 # Your social accounts.
 social:
@@ -21,7 +21,7 @@ logo: /img/logo.svg
 img_prefix: https://your-img-cdn.com
 # The RSS link of your blog.
 rss: "/feed.xml"
-theme: 'jekyll-theme-persephone'
+
 # The followings are settings for displays of your blog.
 theme_setting:
   # The slides count in the slides layout. Default is 4.
@@ -35,7 +35,7 @@ theme_setting:
   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
   nav_pages:
     - "about.md"
-    - "archive.md"
+    -
       title: "External Link Title"
       url: "https://your-external-link.com"
   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
@@ -44,7 +44,7 @@ theme_setting:
   mermaid: true # Mermaid
   #  Locales of this theme.
   lang:
-    category_all: "全部" # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
+    category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
     blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
     # The locales of the comment controls.
     comment:
@@ -60,7 +60,7 @@ head_code: |
 # The settings of comments.
 comment:
   # You should set it to enable comment
-  enabled: false
+  enabled: true
   # Your comment provider
   provider: disqus # static/disqus
   # If provider == disqus
