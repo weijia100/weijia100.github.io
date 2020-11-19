@@ -1,7 +1,7 @@
 title: 水滴石穿
 description: 记录我儿学习成绩的点点滴滴.
 email: "weixu6130@163.com"
-
+locale: zh
 author: hetaodie #  Default is your site title.
 
 # Your social accounts.
@@ -74,5 +74,13 @@ comment:
 smiley:
   enabled: true
   dir: img/smileys
-
+deploy:
+  endpoint: "oss-cn-hongkong.aliyuncs.com"
+  bucket_name: "erlim"
+  expired_in: 1
+  paths:
+    - blog
+    - feed.xml
+    - sitemap.xml
+    
 #pages: books
