@@ -4,6 +4,7 @@
   {%- for book in site.books limit: count -%}
     {%- assign is_odd = forloop.index | modulo: 2 -%}
     <div class="slide__section">
+      <div>weixu2</div>
       {%- if is_odd == 1 -%}
       <div class="slide__img">
         <a href="{{ book.url | relative_url }}" class="slide__link" title="{{ book.title }}"></a>
