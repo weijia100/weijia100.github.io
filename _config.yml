@@ -2,7 +2,7 @@
 title: 水滴石穿
 description: 生活就是一本书，一壶茶，一个阳光明媚的下午！
 locale: zh
-email: "weixu6130@163.com"
+email: "weixu6130@hotmail.com"
 url: "https://weijia100.github.io"
 social:
   github: "erlzhang"
@@ -48,6 +48,7 @@ defaults:
     scope:
       path: ""
       type: "pages"
+      pages: books
     values:
       layout: "page"
       keywords: 叶夕青兮, 原创独立博客, Erl, Jekyll, minimal lifestyle blog
@@ -59,9 +60,6 @@ defaults:
     values:
       layout: "post"
       toc: true
-
-  - books:博客
-        
 plugins:
   - jekyll-feed
   - jekyll-sitemap
