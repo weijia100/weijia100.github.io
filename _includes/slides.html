@@ -1,4 +1,7 @@
 <main class="slide" id="sectionContainer">
+  <div>weixu 0</div>
+  <div>{{is_odd}}</div>
+  <div>{{site.books}}</div>
   {%- assign count = site.theme_setting.slides_count | default: 4 -%}
   {%- for book in site.books limit: count -%}
     {%- assign is_odd = forloop.index | modulo: 2 -%}
