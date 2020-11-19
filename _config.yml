@@ -55,8 +55,6 @@ theme_setting:
       reply: "回复"
 
 head_code: |
-  pages:books
-
   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
 
 # The settings of comments.
@@ -76,3 +74,5 @@ comment:
 smiley:
   enabled: true
   dir: img/smileys
+
+pages: books
